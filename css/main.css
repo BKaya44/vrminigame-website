@@ -1,0 +1,51 @@
+body{
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	font-family: "TransportNew", sans-serif;
+	letter-spacing: 0.0225em;
+    line-height: 1.3em;
+	background-color:black;
+}
+
+.content-box{
+	height:100%;
+	margin:5px 0px;
+	border-radius: 5px;
+}
+
+.content-box iframe{
+	padding:0.75rem;
+}
+
+.content-box img{
+	max-height:300px;
+	max-width:300px;
+}
+
+.content-info{
+	min-height:1000px;
+	height:100%;
+	margin:10px 0;
+	background-color:rgba(255,255,255,0.2);
+	border-radius: 25px;
+}
+
+.content-info a{
+	margin:10px;
+}
+
+.row-content{
+	height:100%;
+}
+
+.demo-color{
+	color:#fff;
+}
+
+.demo-color a{
+	color:#fff;
+}
+
+.demo-full{
+	height:100vh;
+}
