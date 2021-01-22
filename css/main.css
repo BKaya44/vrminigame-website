@@ -4,7 +4,7 @@ body{
 	font-family: "TransportNew", sans-serif;
 	letter-spacing: 0.0225em;
     line-height: 1.3em;
-	background-color:black;
+	background-color:#fff;
 }
 
 .content-box{
@@ -17,13 +17,8 @@ body{
 	padding:0.75rem;
 }
 
-.content-box img{
-	max-height:300px;
-	max-width:300px;
-}
 
 .content-info{
-	min-height:1000px;
 	height:100%;
 	margin:10px 0;
 	background-color:rgba(255,255,255,0.2);
@@ -34,18 +29,14 @@ body{
 	margin:10px;
 }
 
+.white {
+	color:white;
+}
+
+.footer-copyright{
+	padding-bottom:20px;
+}
+
 .row-content{
 	height:100%;
-}
-
-.demo-color{
-	color:#fff;
-}
-
-.demo-color a{
-	color:#fff;
-}
-
-.demo-full{
-	height:100vh;
 }
